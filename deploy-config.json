@@ -1,14 +1,16 @@
 {
   "github_repo_link": "https://github.com/test-org-hkm/myquiz",
-  "domain_name": "myquiz",
-  "cpu": "200m",
-  "ram": "512Mi",
+  "domain_name": "quizzzz",
+  "cpu": "250m",
+  "ram": "256Mi",
   "databases": {
-    "clickhouse": false,
+    "clickhouse": true,
     "redis": false,
     "postgres": false
   },
-  "env_variables": {},
+  "env_variables": {
+    "GITHUB_TOKEN": "qwerty"
+  },
   "namespace": "utils",
   "port": 8000,
   "replicas": 1
